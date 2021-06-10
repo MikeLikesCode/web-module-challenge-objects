@@ -17,9 +17,9 @@ The function should:
 
 function createMenuItem(name,price,category){
   let item = {
-    name: name,
-    price: price,
-    category: category
+    name,
+    price,
+    category
   };
 
   return item
